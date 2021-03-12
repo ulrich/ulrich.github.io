@@ -20,7 +20,7 @@ googleAnalytics = "UA-168698552-1"
 
     [params.contact]
         enable = true
-        location = "Poissy (78)"
+        location = "Poissy"
 
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
