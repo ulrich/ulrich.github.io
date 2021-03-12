@@ -1,0 +1,311 @@
+baseURL = "https://ulrich.github.io"
+languageCode = "fr"
+defaultContentLanguage = "fr"
+title = "Ulrich VACHON - CV"
+theme = "devresume"
+googleAnalytics = "UA-168698552-1"
+
+[params]
+    author = "Ulrich VACHON"
+    description = "Ulrich VACHON 2021"
+
+    primaryColor = "#53abe7"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Ulrich VACHON"
+        tagline = "DÉVELOPPEUR / SCRUM MASTER / DEVOPS"
+        avatar = "avatar.png"
+
+    [params.contact]
+        enable = true
+        location = "Poissy (78)"
+
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "uvachon@reservoircode.net"
+
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "reservoircode.net"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "06 22 70 79 34"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "LANGAGES"
+        [[params.skills.list.items]]
+        details = "Java 8, Golang, C#, Python, Groovy, ES6, JSon, XML, Shell, SQL, C, Lisp, Clojure, AspectJ, Delphi."
+
+        [[params.skills.list]]
+        title = "FRAMEWORKS"
+        [[params.skills.list.items]]
+        details = "JAX-RS/Jersey, Guice, Jongo, Spring, React, Angular, JSP/JSTL, Swing, Servlet API, EJB, JPA, JMX, RMI, JAXP, JDBC, JNI, Grails, Tapestry, Struts, EmberJS, Rails, Play framework, SweetDEV, SOAP/XFire, Hibernate Core/Search…"
+
+        [[params.skills.list]]
+        title = "LIBRAIRIES"
+        [[params.skills.list.items]]
+        details = "Mockito, AssertJ, JUnit, Testcontainers, Mutation Testing/PIT, Lombok, JWT, Guava, Ginko, Apache Commons, JODA, SLF4J, Log4J/Logback, JSoup, AngularJS, JQuery, UnderscoreJS, CasperJS, Lucene, Freemarker, Velocity, DHTMLX, Amcharts, BIRT, SwingX, XStream, C3P0…"
+
+        [[params.skills.list]]
+        title = "OUTILS"
+        [[params.skills.list.items]]
+        details = "Git, Github, Gitlab, Jenkins, Cloud Azure, Cloud GCP, TeamCity, Puppet, Ansible, Azure, GCP, Kibana, Grafana, Docker, Travis, CloudBees, Kubernetes, Segment, Bugsnag, JIRA, VisualVM, Nexus, Sonar, Vagrant, JMeter, JOSM, QGis, Maven, Ant, CruiseControl, SVN, CVS…"
+
+        [[params.skills.list]]
+        title = "EDITEURS"
+        [[params.skills.list.items]]
+        details = "IntelliJ, VSCode, Goland, Eclipse, Visual Studio, XCode, NetBeans, Vim."
+
+        [[params.skills.list]]
+        title = "SERVEURS"
+        [[params.skills.list.items]]
+        details = "Tomcat, Jetty, NGinx, Apache, JBoss, Weblogic et WebSphere."
+
+        [[params.skills.list]]
+        title = "DONNÉES"
+        [[params.skills.list.items]]
+        details = "MongoDB, ElasticSearch, SOLR, InfluxDB, MySQL, PostgreSQL, SQLite, H2, Derby, Firebird, Openstreetmap."
+
+        [[params.skills.list]]
+        title = "OS"
+        [[params.skills.list.items]]
+        details = "Linux, Windows, OSX."
+
+        [[params.skills.list]]
+        title = "MÉTHODES"
+        [[params.skills.list.items]]
+        details = "Scrum, DDD, XP."
+
+        [[params.skills.list]]
+        title = "HARDWARE"
+        [[params.skills.list.items]]
+        details = "Raspberry, Arduino."
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "MongoDB for Java Developers (M101J)"
+        university = "MongoDB"
+        [[params.education.list]]
+        degree = "Microcontrôleurs"
+        university = "Coursera"
+        [[params.education.list]]
+        degree = "Java Performance Tuning"
+        university = "Xebia"
+        [[params.education.list]]
+        degree = "Hardcore Java"
+        university = "Valtech"
+        [[params.education.list]]
+        degree = "Rails"
+        university = "Human Coders"
+        [[params.education.list]]
+        degree = "JSF"
+        university = "Ideo Tech"
+        [[params.education.list]]
+        degree = "Hibernate"
+        university = "Ideo Tech"
+        [[params.education.list]]
+        degree = "Sweetdev"
+        university = "Ideo Tech"
+        [[params.education.list]]
+        degree = "Licence Informatique"
+        university = "Université Paris 8 Vincennes"
+        [[params.education.list]]
+        degree = "DEUG MASS"
+        university = "Université Paris 8 Vincennes"
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Français"
+        level = "Natif"
+        [[params.languages.list]]
+        name = "Anglais"
+        level = "Professionnel"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Concerts"
+        [[params.interests.list]]
+        name = "Randonnées"
+
+    [params.summary]
+        enable = true
+        text = "Ingénieur logiciel expérimenté, je développe des logiciels depuis 2000. Véritable team player, j’aime travailler en équipe pour grandir et tirer le meilleur de mes coéquipiers. Durant ces années, j’ai eu la chance d’endosser les rôles de développeur, leader technique et Scrum Master avec un intérêt grandissant pour la culture DEVOPS. Je m’investis également dans la communauté en partageant mes connaissances sur des blogs techniques et évènements comme DEVOXX."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Développeur chez Ingenico"
+        dates = "2020 - 2021"
+        company = "Reservoir Code - Ingenico"
+        details = "Développeur back-end au sein de l'équipe Acquirer Hub d'Ingenico Paris en full remote (Paris - Bruxelles - Luxembourg). J'accompagne l'équipe au quotidien dans les taches de développements autour d'une application sous architecture microservices avec des composants complexes aussi bien techniquement que fonctionnellement."
+
+        [[params.experience.list]]
+        title = "Développeur chez Docker"
+        dates = "2018 - 2020"
+        company = "Docker"
+        details = "Initialement, j’ai intégré ​Docker​ afin de travailler sur l’amélioration de la qualité logiciel des produits ​Docker Desktop​ pour Mac et Windows. J’ai participé à la mise en place d’outils d’aide à la ​validation des livrables​ et ​tests fonctionnels​. Par la suite, j’ai travaillé dans l’équipe transverse en support des équipes de développements, afin de concevoir puis intégrer des outils ​d’amélioration logiciel​ et de ​déploiement continu​. A présent, j’évolue dans l’équipe ​Desktop​ pour Mac et Windows. Cette expérience présente des facettes du développement logiciel méconnue pour moi, car plus orientée système. La qualité des produits et des équipes techniques ont contribué à me faire évoluer de manière significative sur ​Docker​, ​Go​, ​C#​ et ​Swift​."
+
+#        [[params.experience.list.items]]
+#        details = "Lorem ipsum dolor sit amet, consectetuer."
+
+        [[params.experience.list]]
+        title = "Développeur chez Mappy"
+        dates = "2013 - 2018"
+        company = "Reservoir Code - Mappy"
+        details = "Référent technique au sein de l’équipe ​BOSS ​de Mappy. Mes principaux projets s’articulaient autour des technologies ​Java 8 ​et ​REST​ à destination des clients Web et Mobile, mais également à l’intégration des données partenaires. En fin de mission, j’ai travaillé à la migration en microservices des briques existantes sur des architectures autour de ​Docker, Kubernetes ​sur​ Azure​. Actif également sur des projets connexes comme la production de données au format ​OpenStreetMap​, le compte ​utilisateur​, les vues ​panoramique​ externes. Cette expérience m’a permis de monter en compétence sur les problématiques d’infrastructures dans un environnement ​DEVOPS​ sur un site à forte charge."
+
+        [[params.experience.list]]
+        title = "Développeur chez OUI.sncf"
+        dates = "2012 - 2013"
+        company = "Reservoir Code - OUI.sncf"
+        details = "Leader technique au sein de l’équipe Hypercal chez ​VSC Innovation​ pour le compte de la société Objet Direct. Hypercal est un logiciel de mise en avant des produits voyages OUI.sncf​ sur fond de carte en liaison avec le logiciel de réservation Supercal. Véritable challenge technique, car j’ai dû faire monter en compétence très rapidement une équipes de trois développeurs sur des technologies assez récentes comme ​EmberJS, CasperJS​, ​MongoDB​ et ​Grails​."
+
+        [[params.experience.list]]
+        title = "Développeur pour Crédit Coopératif"
+        dates = "2011 - 2012"
+        company = "Reservoir Code - Dagobert/Crédit Coopératif"
+        details = "Développeur ​fullstack​ Java et JQuery pour la société Dagobert au sein d’une équipe Scrum en agence Web. L’application destinée au grand public est la refonte complète de la banque en ligne du ​Crédit Coopératif​. Cette expérience m’a conforté dans le choix d’une architecture Web basée sur ​Spring, JQuery, CXF, ​permettant de réaliser une application simple, dynamique et robuste. Il s’agit d’une expérience d’autant plus enrichissante pour moi, car n’ayant jamais travaillé en Scrum au forfait auparavant."
+
+        [[params.experience.list]]
+        title = "Scrum Master chez Finance Active"
+        dates = "2011 - 2011"
+        company = "Finance Active"
+        details = "Scrum Master avec un peu de développement au sein d’une équipe composée de trois personnes dédiées à la refonte complète d’une application de gestion du risque de change ​FXChange​. L’application souffrant d’un manque de performance, elle a été entièrement (re)développée sous une approche ​DDD​, programmation fonctionnelle et reposant sur une architecture logicielle autour de ​Tapestry, Hibernate et MySQL​."
+
+        [[params.experience.list]]
+        title = "Développeur/Scrum Master chez Vidal"
+        dates = "2007 - 2011"
+        company = "Vidal"
+        details = "Développeur​ ​Java et Scrum Master dans un environnement Agile sur des projets ​Java, Swing, Spring, Hibernate, Spring, Struts​ au sein d’équipes en moyenne de cinq à huit personnes. En tant que développeur, mon rôle était d’apporter mon expérience technique avec des notions d’architecture pour assurer la cohérence des projets de l’équipe ​Front​. En tant que Scrum-Master, mon rôle était d’organiser et de diriger les sprints, les mises en production."
+
+        [[params.experience.list]]
+        title = "Développeur chez Allianz G. I."
+        dates = "2007 - 2007"
+        company = "Ideo Technologies - Allianz G. I."
+        details = "Développement en ​Java​ sous ​XP​ d’une application de gestion de portefeuille monétaire pour l’asset management. Réalisation d’un ​framework​ fonctionnel. Mission autant axée développement que collaboration, car beaucoup de codes devaient être mutualisés entre des projets similaires et donc des équipes."
+
+        [[params.experience.list]]
+        title = "Développeur chez Cetelem"
+        dates = "2006 - 2007"
+        company = "Ideo Technologies - Cetelem"
+        details = "Etude d’architecture et développement en ​Java​ d’un prototype basé sur le ​framework SweetDEV​ en vue de son intégration dans le SI de ​BNP​. Cette étude a permis de mettre en avant les avantages apportés par l’utilisation de l’​IOC​, la rupture de protocole et la ​taglib​ offerte par le socle technique. Nous avons profité de cette mission pour réécrire le module de gestion des properties du ​framework SweetDev​."
+
+        [[params.experience.list]]
+        title = "Développeur chez BNP SIG"
+        dates = "2006 - 2006"
+        company = "Ideo Technologies - BNP SIG"
+        details = "Développement en ​Java​ d’une application de gestion de portefeuille client basée sur le framework​ ​SweetDEV​ et​ Hibernate​. Réalisation en partenariat avec une équipe de trois architectes techniques de chez ​Business Objects​."
+
+        [[params.experience.list]]
+        title = "Développeur chez BNP Banque Privée"
+        dates = "2006 - 2006"
+        company = "Ideo Technologies - BNP Banque Privée"
+        details = "Quickstart et développement d’une application en Java d’analyse de mandat basée sur le framework SweetDEV et Hibernate. Le but était principalement de conforter l’entité BNP Banque Privée du bon choix de ce socle technique. Cette mission m’a offert l’opportunité de diriger une petite équipe de deux développeurs et poussé à faire des choix d’architecture."
+
+        [[params.experience.list]]
+        title = "Développeur chez Ericsson"
+        dates = "2006 - 2006"
+        company = "Ideo Technologies - Ericsson"
+        details = "Développement en ​Java​ d’une application de ​reporting​ pour la plateforme de streaming SFR, basée sur le ​framework​ ​SweetDEV​ et ​Hibernate​. Premier pas en gestion de projet."
+
+        [[params.experience.list]]
+        title = "Développeur chez Ideo Technologies en R&D"
+        dates = "2005 - 2006"
+        company = "Ideo Technologies"
+        details = "Développements et maintenances au sein de la R&D d’Ideo Technologies des composants techniques du ​framework​ ​SweetDEV​. Participation à la mise en place d’outils d’audit de code, de qualité logicielle ainsi que du serveur d’intégration continue. Conception et développement du plugin Eclipse ​SweetDEV-Studio​, en collaboration avec ​M7/BEA​."
+
+        [[params.experience.list]]
+        title = "Développeur chez XPR"
+        dates = "2001 - 2005"
+        company = "XPR"
+        details = "Développement en ​Java​ sur plateforme ​embarquée​ de type ​Psion Symbian​ et ​PalmOS​, d’une application d’aide à l’expertise immobilière. Conception/réalisation de l’ensemble des couches applicatives. Puis, développements en ​Windev​ et ​Delphi​ de modules applicatifs sur d’autres produits axés ressources humaines."
+
+        [[params.experience.list]]
+        title = "Développeur chez Techniform"
+        dates = "2000 - 2001"
+        company = "Techniform"
+        details = "Développement en ​Java​ sur ​embarqué​ de type ​PSION​, d’une application d’aide à la saisie de menus pour la restauration collective. Réalisation du conduit de synchronisation et optimisations de code."
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Conférences"
+        [[params.information.list.items]]
+        details = "Touraine.tech 2020​ - Dockerfile, les bonnes pratiques"
+        [[params.information.list.items]]
+        details = "DEVOXX 2018​ - ​Refaire Google Maps en moins de 3 heures​"
+        [[params.information.list.items]]
+        details = "DEVOXX 2012​ - ​Pratiquer DDD en un éclair​​"
+        [[params.information.list.items]]
+        details = "DEVOXX 2012​ - ​C’est si simple GIT !​"
+
+        [[params.information.list]]
+        title = "Évènements"
+        details = "Docker, Kubernetes, MongoDB, DEVOXX, NDH, OSDCfr et Agile France"
+
+        [[params.information.list]]
+        title = "Contributions"
+        details = "​ulrichinaction.blogspot.com​, open-source autour de Docker, Grails, Maven, Struts2, Hibernate Search"
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/ulrich"
+        title = "ulrich"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/vachon"
+        title = "Ulrich VACHON"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/ulrich"
+        title = "@ulrich"
