@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
+    <title>Ulrich VACHON - CV</title>
     <link>https://ulrich.github.io/</link>
-    <description>Recent content on </description>
+    <description>Recent content on Ulrich VACHON - CV</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language>
-    
-	<atom:link href="https://ulrich.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>fr</language><atom:link href="https://ulrich.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
