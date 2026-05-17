@@ -326,12 +326,12 @@ Early career positions involving Java development on embedded clients (PSION/Pal
         details = "DEVOXX 2012​ - ​C’est si simple GIT !​"
 
         [[params.information.list]]
-        title = "Évènements"
-        details = "Docker, Kubernetes, MongoDB, DEVOXX, NDH, OSDCfr et Agile France"
+        title = "Events"
+        details = "Docker, Kubernetes, MongoDB, Devoxx, NDH, OSDCfr, Agile France."
 
         [[params.information.list]]
         title = "Contributions"
-        details = "​ulrichinaction.blogspot.com​, open-source autour de Docker, Grails, Maven, Struts2, Hibernate Search"
+        details = "dev.to/ulrich, github.com/ulrich and also open-source contributions around Docker, Maven, Struts2 and Hibernate Search."
 
     [params.social]
         enable = true
