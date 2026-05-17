@@ -168,94 +168,130 @@ googleAnalytics = "UA-168698552-1"
         dates = "02/2025 – Present"
         company = "Rout’in · Reservoir Code · Hybrid"
         stack = "Java 25, Spring Boot 3, Hexagonal Architecture, CQRS, React, Vite, AWS, Docker, Terraform, EKS, PostgreSQL, Datadog."
-        details = "Tech Lead for a team of 3 to 4 developers on the Mobility Pass platform, a B2B mobility management solution currently being rolled out to several large enterprise clients. Responsible for design, architecture and development on a hexagonal Java backend with multiple frontends (React/Vite), deployed on AWS infrastructure (EKS, Terraform, Docker). Led integration work with a major French payment service provider (payment flows, financial transactions), as well as with HRIS teams and external integrators. Ran bi-weekly coordination meetings with OPS teams and tracked both the technical and business roadmap. Initiated exploratory workstreams: Drools rules engine, chatbot with Tools / Spring AI, and early HRIS integration studies. Worked closely with the Product Manager, Product Owner, QA Lead and UX Lead."
+        details = """
+Tech Lead for a team of 3 to 4 developers on the **Mobility Pass** platform, a B2B mobility management solution currently being rolled out to several large enterprise clients. Responsible for design, architecture and development on a hexagonal Java backend with multiple frontends (React/Vite), deployed on AWS infrastructure (EKS, Terraform, Docker).
+        
+Led integration work with a **major French payment service provider** (payment flows, financial transactions), as well as with HRIS teams and external integrators. Ran bi-weekly coordination meetings with OPS teams and tracked both the technical and business roadmap.
+        
+Initiated exploratory workstreams: **Drools** rules engine, chatbot with **Tools / Spring AI**, and early HRIS integration studies. Worked closely with the Product Manager, Product Owner, QA Lead and UX Lead.
+"""
 
         [[params.experience.list]]
-        title = "Développeur chez Docker"
-        dates = "2018 - 2020"
-        company = "Docker"
-        details = "Initialement, j’ai intégré ​Docker​ afin de travailler sur l’amélioration de la qualité logiciel des produits ​Docker Desktop​ pour Mac et Windows. J’ai participé à la mise en place d’outils d’aide à la ​validation des livrables​ et ​tests fonctionnels​. Par la suite, j’ai travaillé dans l’équipe transverse en support des équipes de développements, afin de concevoir puis intégrer des outils ​d’amélioration logiciel​ et de ​déploiement continu​. A présent, j’évolue dans l’équipe ​Desktop​ pour Mac et Windows. Cette expérience présente des facettes du développement logiciel méconnue pour moi, car plus orientée système. La qualité des produits et des équipes techniques ont contribué à me faire évoluer de manière significative sur ​Docker​, ​Go​, ​C#​ et ​Swift​."
+        title = "Senior Software Engineer"
+        dates = "06/2022 – 02/2025"
+        company = "RATP Smartsystems · Reservoir Code · Hybrid"
+        stack = " Java, Spring Boot, Kafka, AWS, Docker, Kubernetes, PostgreSQL, MongoDB, React, Datadog"
+        details = """
+Contributed to the development of the **Bonjour RATP** platform MAAS (Mobility as a Service), a high-traffic application serving **millions of users**. Worked within the B2C team in close collaboration with Mobile and Infrastructure teams.
 
-#        [[params.experience.list.items]]
-#        details = "Lorem ipsum dolor sit amet, consectetuer."
+Key contributions included the **RATP User Account** project and the **FMD (Forfait Mobilité Durable)** project, involving reimbursement workflows and financial transaction processing. Responsible for integrating third-party mobility partner solutions while maintaining a consistent user experience across touchpoints.
 
-        [[params.experience.list]]
-        title = "Développeur chez Mappy"
-        dates = "2013 - 2018"
-        company = "Reservoir Code - Mappy"
-        details = "Référent technique au sein de l’équipe ​BOSS ​de Mappy. Mes principaux projets s’articulaient autour des technologies ​Java 8 ​et ​REST​ à destination des clients Web et Mobile, mais également à l’intégration des données partenaires. En fin de mission, j’ai travaillé à la migration en microservices des briques existantes sur des architectures autour de ​Docker, Kubernetes ​sur​ Azure​. Actif également sur des projets connexes comme la production de données au format ​OpenStreetMap​, le compte ​utilisateur​, les vues ​panoramique​ externes. Cette expérience m’a permis de monter en compétence sur les problématiques d’infrastructures dans un environnement ​DEVOPS​ sur un site à forte charge."
+Acted as a technical reference within the team, supporting the technical leader on architecture decisions and code quality.
+"""
 
         [[params.experience.list]]
-        title = "Développeur chez OUI.sncf"
-        dates = "2012 - 2013"
-        company = "Reservoir Code - OUI.sncf"
-        details = "Leader technique au sein de l’équipe Hypercal chez ​VSC Innovation​ pour le compte de la société Objet Direct. Hypercal est un logiciel de mise en avant des produits voyages OUI.sncf​ sur fond de carte en liaison avec le logiciel de réservation Supercal. Véritable challenge technique, car j’ai dû faire monter en compétence très rapidement une équipes de trois développeurs sur des technologies assez récentes comme ​EmberJS, CasperJS​, ​MongoDB​ et ​Grails​."
+        title = "Lead Developer / Senior Software Engineer"
+        dates = "04/2021 – 06/2022"
+        company = "RATP Smartsystems · Reservoir Code · Hybrid"
+        stack = "  Java, Spring Boot, Keycloak, OAuth2, JWT, Docker, Kubernetes, PostgreSQL, MongoDB, Datadog"
+        details = """
+Technical leader for the UBS team at Mappy, responsible for architecture, development and integration of the customer account platform. Led a cross-functional feature team of 3 to 4 people (backend, web, mobile) through the full integration of **Keycloak** for covering authentication, authorization, and identity management with a strong security-by-design approach.
 
-        [[params.experience.list]]
-        title = "Développeur pour Crédit Coopératif"
-        dates = "2011 - 2012"
-        company = "Reservoir Code - Dagobert/Crédit Coopératif"
-        details = "Développeur ​fullstack​ Java et JQuery pour la société Dagobert au sein d’une équipe Scrum en agence Web. L’application destinée au grand public est la refonte complète de la banque en ligne du ​Crédit Coopératif​. Cette expérience m’a conforté dans le choix d’une architecture Web basée sur ​Spring, JQuery, CXF, ​permettant de réaliser une application simple, dynamique et robuste. Il s’agit d’une expérience d’autant plus enrichissante pour moi, car n’ayant jamais travaillé en Scrum au forfait auparavant."
+Designed and delivered new **REST APIs** with strict backward compatibility requirements, and worked closely with Infrastructure teams on platform deployment and operations.
+"""
 
-        [[params.experience.list]]
-        title = "Scrum Master chez Finance Active"
-        dates = "2011 - 2011"
-        company = "Finance Active"
-        details = "Scrum Master avec un peu de développement au sein d’une équipe composée de trois personnes dédiées à la refonte complète d’une application de gestion du risque de change ​FXChange​. L’application souffrant d’un manque de performance, elle a été entièrement (re)développée sous une approche ​DDD​, programmation fonctionnelle et reposant sur une architecture logicielle autour de ​Tapestry, Hibernate et MySQL​."
+[[params.experience.list]]
+title = "Senior Software Engineer"
+dates = "07/2020 – 03/2021"
+company = "Ingenico · Reservoir Code · Full Remote"
+stack = "Java, REST, Kafka, Cassandra, AWS, Docker"
+details = """
+Back-end developer within the Acquirer Hub team, working in an international context (Paris, Brussels, Luxembourg) on a B2B payment engine built on a microservices architecture, serving as a unified adapter layer between consumers and multiple payment service providers / acquirers.
 
-        [[params.experience.list]]
-        title = "Développeur/Scrum Master chez Vidal"
-        dates = "2007 - 2011"
-        company = "Vidal"
-        details = "Développeur​ ​Java et Scrum Master dans un environnement Agile sur des projets ​Java, Swing, Spring, Hibernate, Spring, Struts​ au sein d’équipes en moyenne de cinq à huit personnes. En tant que développeur, mon rôle était d’apporter mon expérience technique avec des notions d’architecture pour assurer la cohérence des projets de l’équipe ​Front​. En tant que Scrum-Master, mon rôle était d’organiser et de diriger les sprints, les mises en production."
+Led several acquirer integrations end-to-end: requirements gathering, communication with acquirer representatives, work planning and accreditation. Contributed to component architecture design and documentation, and promoted **Agile Scrum** practices across the team.
+"""
 
-        [[params.experience.list]]
-        title = "Développeur chez Allianz G. I."
-        dates = "2007 - 2007"
-        company = "Ideo Technologies - Allianz G. I."
-        details = "Développement en ​Java​ sous ​XP​ d’une application de gestion de portefeuille monétaire pour l’asset management. Réalisation d’un ​framework​ fonctionnel. Mission autant axée développement que collaboration, car beaucoup de codes devaient être mutualisés entre des projets similaires et donc des équipes."
+[[params.experience.list]]
+title = "Senior Software Engineer"
+dates = "12/2018 – 07/2020"
+company = "Docker · Permanent Position · Hybrid"
+stack = "Go, C#, Swift, Shell/Bash, Docker, CI/CD tooling"
+details = """
+Feature developer on **Docker Desktop** (Mac and Windows) within a small, focused engineering team. Contributed to product development alongside tooling for deliverable validation, functional testing and continuous deployment pipelines.
 
-        [[params.experience.list]]
-        title = "Développeur chez Cetelem"
-        dates = "2006 - 2007"
-        company = "Ideo Technologies - Cetelem"
-        details = "Etude d’architecture et développement en ​Java​ d’un prototype basé sur le ​framework SweetDEV​ en vue de son intégration dans le SI de ​BNP​. Cette étude a permis de mettre en avant les avantages apportés par l’utilisation de l’​IOC​, la rupture de protocole et la ​taglib​ offerte par le socle technique. Nous avons profité de cette mission pour réécrire le module de gestion des properties du ​framework SweetDev​."
+Worked in a system-oriented environment with deep daily exposure to Docker internals, cross-platform constraints and software quality practices.
+"""
 
-        [[params.experience.list]]
-        title = "Développeur chez BNP SIG"
-        dates = "2006 - 2006"
-        company = "Ideo Technologies - BNP SIG"
-        details = "Développement en ​Java​ d’une application de gestion de portefeuille client basée sur le framework​ ​SweetDEV​ et​ Hibernate​. Réalisation en partenariat avec une équipe de trois architectes techniques de chez ​Business Objects​."
+[[params.experience.list]]
+title = "Lead Developer / Senior Software Engineer"
+dates = "03/2013 – 11/2018"
+company = "Mappy · Reservoir Code · Paris"
+stack = "Java 8, Spring Boot, Docker, Kubernetes, Azure, PostgreSQL, MongoDB, ElasticSearch, SOLR"
+details = """
+Technical reference for Java and REST technologies across Web and Mobile teams on a high-traffic platform handling several million requests per day. Acted as go-to person for architecture decisions and code quality, with occasional mentoring of team members.
 
-        [[params.experience.list]]
-        title = "Développeur chez BNP Banque Privée"
-        dates = "2006 - 2006"
-        company = "Ideo Technologies - BNP Banque Privée"
-        details = "Quickstart et développement d’une application en Java d’analyse de mandat basée sur le framework SweetDEV et Hibernate. Le but était principalement de conforter l’entité BNP Banque Privée du bon choix de ce socle technique. Cette mission m’a offert l’opportunité de diriger une petite équipe de deux développeurs et poussé à faire des choix d’architecture."
+Led the migration of key components from a monolithic architecture to **microservices on Docker/Kubernetes**. Contributed to OSM data production pipelines, user account management, and external panoramic view integration.
 
-        [[params.experience.list]]
-        title = "Développeur chez Ericsson"
-        dates = "2006 - 2006"
-        company = "Ideo Technologies - Ericsson"
-        details = "Développement en ​Java​ d’une application de ​reporting​ pour la plateforme de streaming SFR, basée sur le ​framework​ ​SweetDEV​ et ​Hibernate​. Premier pas en gestion de projet."
+Worked in a demanding **DevOps** environment with a strong focus on performance, scalability and operational reliability.
+"""
 
-        [[params.experience.list]]
-        title = "Développeur chez Ideo Technologies en R&D"
-        dates = "2005 - 2006"
-        company = "Ideo Technologies"
-        details = "Développements et maintenances au sein de la R&D d’Ideo Technologies des composants techniques du ​framework​ ​SweetDEV​. Participation à la mise en place d’outils d’audit de code, de qualité logicielle ainsi que du serveur d’intégration continue. Conception et développement du plugin Eclipse ​SweetDEV-Studio​, en collaboration avec ​M7/BEA​."
+[[params.experience.list]]
+title = "Lead Developer / Senior Software Engineer"
+dates = "09/2012 – 03/2013"
+company = "OUI.sncf · Reservoir Code · La Défense"
+stack = "Java, Grails, MongoDB, EmberJS, CasperJS"
+details = """
+Technical leader for the **Hypercal** team, a project showcasing OUI.sncf travel products on an interactive map. Led and upskilled a team of 3 developers on a modern stack (EmberJS, Grails, MongoDB), from inception through to production release.
+"""
 
-        [[params.experience.list]]
-        title = "Développeur chez XPR"
-        dates = "2001 - 2005"
-        company = "XPR"
-        details = "Développement en ​Java​ sur plateforme ​embarquée​ de type ​Psion Symbian​ et ​PalmOS​, d’une application d’aide à l’expertise immobilière. Conception/réalisation de l’ensemble des couches applicatives. Puis, développements en ​Windev​ et ​Delphi​ de modules applicatifs sur d’autres produits axés ressources humaines."
+[[params.experience.list]]
+title = "Senior Software Engineer"
+dates = "12/2011 – 08/2012"
+company = "Crédit Coopératif · Reservoir Code · Nanterre"
+stack = "Java, Spring, CXF, jQuery"
+details = """
+Full-stack developer on the complete redesign of Crédit Coopératif's online banking platform, covering account management and transfer workflows. Worked in an agency **Scrum** team on a fixed-price project. A first hands-on experience in an Agile environment within the banking sector.
+"""
 
-        [[params.experience.list]]
-        title = "Développeur chez Techniform"
-        dates = "2000 - 2001"
-        company = "Techniform"
-        details = "Développement en ​Java​ sur ​embarqué​ de type ​PSION​, d’une application d’aide à la saisie de menus pour la restauration collective. Réalisation du conduit de synchronisation et optimisations de code."
+[[params.experience.list]]
+title = "Senior Software Engineer / Scrum Master"
+dates = "03/2011 – 11/2011"
+company = "Finance Active · Permanent Position · Issy-les-Moulineaux"
+stack = "Java, Tapestry, Hibernate, MySQL"
+details = """
+Scrum Master and developer on the full redesign of **FXChange**, a foreign exchange risk management application. Led a small team of 2 to 3 developers using a **DDD** approach and functional programming principles.
+"""
+
+[[params.experience.list]]
+title = "Software Engineer / Scrum Master"
+dates = "04/2007 – 03/2011"
+company = "Vidal · Permanent Position · Paris"
+stack = "Java, Spring, Hibernate, Struts, Swing"
+details = """
+Developer and Scrum Master in Agile teams of 5 to 8 people, working on medical and pharmaceutical applications covering both desktop (Swing) and web interfaces. Responsible for sprint leadership and coordination of production releases, while providing occasional technical guidance to the frontend team.
+
+A formative experience combining technical depth, Agile practice and delivery accountability over 4 years.
+"""
+
+[[params.experience.list]]
+title = "Software Engineer"
+dates = "01/2005 – 12/2007"
+company = "Ideo Technologies · Permanent Position · Suresnes"
+stack = "Java, Struts, Eclipse RCP, JavaEE, Hibernate"
+details = """
+Delivered multiple Java missions for major financial institutions: monetary portfolio management (**Allianz**), UI prototyping on BNP's information system (**Cetelem/BNP**), client portfolio management (**BNP SIG**), mandate analysis with architectural ownership and team lead of 2 developers (**BNP Banque Privée**), and reporting application (**Ericsson**).
+
+Within Ideo's R&D team, contributed to the development of the **SweetDEV** open-source framework, implemented code audit tools, software quality tooling and continuous integration. Co-designed the Eclipse plugin **SweetDEV-Studio** in collaboration with M7/BEA.
+"""
+
+[[params.experience.list]]
+title = "Software Engineer"
+dates = "07/2000 – 12/2004"
+company = "XPR / Techniform · Permanent Position · Paris"
+stack = "Java, WinDev, Delphi, embedded clients (PSION/Palm)"
+details = """
+Early career positions involving Java development on embedded clients (PSION/Palm) across real estate, HR and catering domains. Covered full application layer design, synchronization and code optimization. A solid foundation in low-level and system-oriented development.
+"""
 
     [params.projects]
         enable = false
