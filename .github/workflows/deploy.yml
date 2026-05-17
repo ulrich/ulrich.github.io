@@ -11,15 +11,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: true  # pour le thème Hugo
+          submodules: true
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.81.0'  # votre version actuelle
+          hugo-version: '0.81.0'
+          extended: true
 
       - name: Build
-        run: hugo --source src  # si vos sources sont dans /src
+        run: hugo --source src
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
