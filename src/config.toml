@@ -94,35 +94,16 @@ googleAnalytics = "UA-168698552-1"
         enable = true
 
         [[params.education.list]]
-        degree = "MongoDB for Java Developers (M101J)"
-        university = "MongoDB"
-        [[params.education.list]]
-        degree = "Microcontrôleurs"
-        university = "Coursera"
-        [[params.education.list]]
-        degree = "Java Performance Tuning"
-        university = "Xebia"
-        [[params.education.list]]
-        degree = "Hardcore Java"
-        university = "Valtech"
-        [[params.education.list]]
-        degree = "Rails"
-        university = "Human Coders"
-        [[params.education.list]]
-        degree = "JSF"
-        university = "Ideo Tech"
-        [[params.education.list]]
-        degree = "Hibernate"
-        university = "Ideo Tech"
-        [[params.education.list]]
-        degree = "Sweetdev"
-        university = "Ideo Tech"
-        [[params.education.list]]
         degree = "Licence Informatique"
         university = "Université Paris 8 Vincennes"
+
         [[params.education.list]]
         degree = "DEUG MASS"
         university = "Université Paris 8 Vincennes"
+
+        [[params.education.list]]
+        degree = "Formations"
+        university = "MongoDB for Java Developers (MongoDB), Comprendre les Microcontrôleurs (EPFL), Java Performance Tuning (Xebia), Hardcore Java (Valtech), RAILS (Human Coders), Sweetdev/JSF (Ideo Technologies)."
 
     [params.awards]
         enable = false
