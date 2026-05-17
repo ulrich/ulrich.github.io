@@ -7,7 +7,7 @@ googleAnalytics = "UA-168698552-1"
 
 [params]
     author = "Ulrich VACHON"
-    description = "Ulrich VACHON 2021"
+    description = "Ulrich VACHON 2026"
 
     primaryColor = "#53abe7"
     textPrimaryColor = "#292929"
@@ -15,7 +15,7 @@ googleAnalytics = "UA-168698552-1"
     [params.profile]
         enable = true
         name = "Ulrich VACHON"
-        tagline = "DÉVELOPPEUR / SCRUM MASTER / DEVOPS"
+        tagline = "Tech Lead / Senior Software Engineer"
         avatar = "avatar.png"
 
     [params.contact]
@@ -43,32 +43,37 @@ googleAnalytics = "UA-168698552-1"
         [[params.skills.list]]
         title = "LANGAGES"
         [[params.skills.list.items]]
-        details = "Java 8, Golang, C#, Python, Groovy, ES6, JSon, XML, Shell, SQL, C, Lisp, Clojure, AspectJ, Delphi."
+        details = "Java 25, TypeScript, Golang, C#, Python, Groovy, SQL, Shell, Lisp, Clojure, Delphi."
 
         [[params.skills.list]]
         title = "FRAMEWORKS"
         [[params.skills.list.items]]
-        details = "JAX-RS/Jersey, Guice, Jongo, Spring, React, Angular, JSP/JSTL, Swing, Servlet API, EJB, JPA, JMX, RMI, JAXP, JDBC, JNI, Grails, Tapestry, Struts, EmberJS, Rails, Play framework, SweetDEV, SOAP/XFire, Hibernate Core/Search…"
+        details = "Spring Boot 3, Spring AI, React, Vite, node, Angular, EmberJS, JAX-RS/Jersey, Grails, Tapestry, Rails, Play framework…"
 
         [[params.skills.list]]
-        title = "LIBRAIRIES"
+        title = "Architecture"
         [[params.skills.list.items]]
-        details = "Mockito, AssertJ, JUnit, Testcontainers, Mutation Testing/PIT, Lombok, JWT, Guava, Ginko, Apache Commons, JODA, SLF4J, Log4J/Logback, JSoup, AngularJS, JQuery, UnderscoreJS, CasperJS, Lucene, Freemarker, Velocity, DHTMLX, Amcharts, BIRT, SwingX, XStream, C3P0…"
+        details = "Hexagonal Architecture, Microservices, CQRS, ADR, DDD, REST, MCP Tools."
 
         [[params.skills.list]]
-        title = "OUTILS"
+        title = "DEVOPS/INFRA"
         [[params.skills.list.items]]
-        details = "Git, Github, Gitlab, Jenkins, Cloud Azure, Cloud GCP, TeamCity, Puppet, Ansible, Azure, GCP, Kibana, Grafana, Docker, Travis, CloudBees, Kubernetes, Segment, Bugsnag, JIRA, VisualVM, Nexus, Sonar, Vagrant, JMeter, JOSM, QGis, Maven, Ant, CruiseControl, SVN, CVS…"
+        details = "Docker, Kubernetes, Terraform/Terragrunt, GitHub, GitLab, AWS, Azure, GCP, Jenkins, TeamCity, Travis CI."
 
         [[params.skills.list]]
-        title = "EDITEURS"
+        title = "DATA"
         [[params.skills.list.items]]
-        details = "IntelliJ, VSCode, Goland, Eclipse, Visual Studio, XCode, NetBeans, Vim."
+        details = "PostgreSQL, MongoDB, ElasticSearch/SOLR, Kafka, InfluxDB, MySQL, SQLite,OpenStreetMaps."
 
         [[params.skills.list]]
-        title = "SERVEURS"
+        title = "Security/IAM"
         [[params.skills.list.items]]
-        details = "Tomcat, Jetty, NGinx, Apache, JBoss, Weblogic et WebSphere."
+        details = "Keycloak/SPI, JWT, OAuth2."
+
+        [[params.skills.list]]
+        title = "Testing"
+        [[params.skills.list.items]]
+        details = "JUnit, Mockito, AssertJ, Testcontainers, Mutation Testing/PIT."
 
         [[params.skills.list]]
         title = "DONNÉES"
@@ -76,19 +81,19 @@ googleAnalytics = "UA-168698552-1"
         details = "MongoDB, ElasticSearch, SOLR, InfluxDB, MySQL, PostgreSQL, SQLite, H2, Derby, Firebird, Openstreetmap."
 
         [[params.skills.list]]
-        title = "OS"
+        title = "Tools"
         [[params.skills.list.items]]
-        details = "Linux, Windows, OSX."
+        details = "Git, IntelliJ, VSCode, VIM, Sonar, JIRA, Nexus, Maven, Drools…"
 
         [[params.skills.list]]
-        title = "MÉTHODES"
+        title = "Methods"
         [[params.skills.list.items]]
-        details = "Scrum, DDD, XP."
+        details = "Scrum, Kanban, Extreme Programming."
 
         [[params.skills.list]]
-        title = "HARDWARE"
+        title = "OS/HARDWARE"
         [[params.skills.list.items]]
-        details = "Raspberry, Arduino."
+        details = "Linux, MacOS, Windows, Raspberry, Arduino."
 
     [params.education]
         enable = true
@@ -156,16 +161,16 @@ googleAnalytics = "UA-168698552-1"
 
     [params.summary]
         enable = true
-        text = "Ingénieur logiciel expérimenté, je développe des logiciels depuis 2000. Véritable team player, j’aime travailler en équipe pour grandir et tirer le meilleur de mes coéquipiers. Durant ces années, j’ai eu la chance d’endosser les rôles de développeur, leader technique et Scrum Master avec un intérêt grandissant pour la culture DEVOPS. Je m’investis également dans la communauté en partageant mes connaissances sur des blogs techniques et évènements comme DEVOXX."
+        text = "Experienced developer since 2000, team player and technical leader with a strong interest in technologies. Passionate about community sharing through technical blogs and events like DEVOXX."
 
     [params.experience]
         enable = true
 
         [[params.experience.list]]
-        title = "Développeur chez Ingenico"
-        dates = "2020 - 2021"
-        company = "Reservoir Code - Ingenico"
-        details = "Développeur back-end au sein de l'équipe Acquirer Hub d'Ingenico Paris en full remote (Paris - Bruxelles - Luxembourg). J'accompagne l'équipe au quotidien dans les taches de développements autour d'une application sous architecture microservices avec des composants complexes aussi bien techniquement que fonctionnellement."
+        title = "Lead Developer / Senior Software Engineer"
+        dates = "02/2025 – Present"
+        company = "Rout’in · Reservoir Code · Full Remote"
+        details = "Stack: Java 25, Spring Boot 3, Hexagonal Architecture, CQRS, React, Vite, AWS, Docker, Terraform, EKS, PostgreSQL, Datadog. Tech Lead for a team of 3 to 4 developers on the Mobility Pass platform, a B2B mobility management solution currently being rolled out to several large enterprise clients. Responsible for design, architecture and development on a hexagonal Java backend with multiple frontends (React/Vite), deployed on AWS infrastructure (EKS, Terraform, Docker). Led integration work with a major French payment service provider (payment flows, financial transactions), as well as with HRIS teams and external integrators. Ran bi-weekly coordination meetings with OPS teams and tracked both the technical and business roadmap. Initiated exploratory workstreams: Drools rules engine, chatbot with Tools / Spring AI, and early HRIS integration studies. Worked closely with the Product Manager, Product Owner, QA Lead and UX Lead."
 
         [[params.experience.list]]
         title = "Développeur chez Docker"
