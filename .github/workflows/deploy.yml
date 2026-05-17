@@ -22,6 +22,9 @@ jobs:
       - name: Build
         run: hugo --source src
 
+      - name: Copy README
+        run: cp README.md src/public/README.md
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -29,6 +32,3 @@ jobs:
           publish_dir: ./src/public
           publish_branch: master
           cname: reservoircode.net
-
-      - name: Copy README
-        run: cp README.md src/public/README.md
