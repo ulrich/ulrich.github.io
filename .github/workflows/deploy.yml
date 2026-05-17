@@ -29,3 +29,6 @@ jobs:
           publish_dir: ./src/public
           publish_branch: master
           cname: reservoircode.net
+
+      - name: Copy README
+        run: cp README.md src/public/README.md
