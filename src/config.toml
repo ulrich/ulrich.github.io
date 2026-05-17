@@ -154,7 +154,7 @@ googleAnalytics = "UA-168698552-1"
         [[params.interests.list]]
         name = "Hikes"
         [[params.interests.list]]
-        name = "Lifelong curiosity for anything ending in "-ics" (electronics, robotics, acoustics, home automation…)"
+        name = "Lifelong curiosity for anything ending in '-ics' (electronics, robotics, acoustics, home automation…)"
 
     [params.summary]
         enable = true
