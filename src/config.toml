@@ -20,7 +20,7 @@ googleAnalytics = "UA-168698552-1"
 
     [params.contact]
         enable = true
-        location = "Poissy"
+        location = "Paris"
 
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
@@ -41,12 +41,12 @@ googleAnalytics = "UA-168698552-1"
         enable = true
 
         [[params.skills.list]]
-        title = "LANGAGES"
+        title = "Langages"
         [[params.skills.list.items]]
         details = "Java 25, TypeScript, Golang, C#, Python, Groovy, SQL, Shell, Lisp, Clojure, Delphi."
 
         [[params.skills.list]]
-        title = "FRAMEWORKS"
+        title = "Frameworks"
         [[params.skills.list.items]]
         details = "Spring Boot 3, Spring AI, React, Vite, node, Angular, EmberJS, JAX-RS/Jersey, Grails, Tapestry, Rails, Play framework…"
 
@@ -56,12 +56,12 @@ googleAnalytics = "UA-168698552-1"
         details = "Hexagonal Architecture, Microservices, CQRS, ADR, DDD, REST, MCP Tools."
 
         [[params.skills.list]]
-        title = "DEVOPS/INFRA"
+        title = "DevOps/Infa"
         [[params.skills.list.items]]
         details = "Docker, Kubernetes, Terraform/Terragrunt, GitHub, GitLab, AWS, Azure, GCP, Jenkins, TeamCity, Travis CI."
 
         [[params.skills.list]]
-        title = "DATA"
+        title = "Data"
         [[params.skills.list.items]]
         details = "PostgreSQL, MongoDB, ElasticSearch/SOLR, Kafka, InfluxDB, MySQL, SQLite,OpenStreetMaps."
 
@@ -74,11 +74,6 @@ googleAnalytics = "UA-168698552-1"
         title = "Testing"
         [[params.skills.list.items]]
         details = "JUnit, Mockito, AssertJ, Testcontainers, Mutation Testing/PIT."
-
-        [[params.skills.list]]
-        title = "DONNÉES"
-        [[params.skills.list.items]]
-        details = "MongoDB, ElasticSearch, SOLR, InfluxDB, MySQL, PostgreSQL, SQLite, H2, Derby, Firebird, Openstreetmap."
 
         [[params.skills.list]]
         title = "Tools"
@@ -149,15 +144,17 @@ googleAnalytics = "UA-168698552-1"
         level = "Natif"
         [[params.languages.list]]
         name = "Anglais"
-        level = "Professionnel"
+        level = "Professional"
 
     [params.interests]
         enable = true
 
         [[params.interests.list]]
-        name = "Concerts"
+        name = " Concerts"
         [[params.interests.list]]
-        name = "Randonnées"
+        name = "Hikes"
+        [[params.interests.list]]
+        name = "Lifelong curiosity for anything ending in "-ics" (electronics, robotics, acoustics, home automation…)"
 
     [params.summary]
         enable = true
@@ -170,7 +167,8 @@ googleAnalytics = "UA-168698552-1"
         title = "Lead Developer / Senior Software Engineer"
         dates = "02/2025 – Present"
         company = "Rout’in · Reservoir Code · Full Remote"
-        details = "Stack: Java 25, Spring Boot 3, Hexagonal Architecture, CQRS, React, Vite, AWS, Docker, Terraform, EKS, PostgreSQL, Datadog. Tech Lead for a team of 3 to 4 developers on the Mobility Pass platform, a B2B mobility management solution currently being rolled out to several large enterprise clients. Responsible for design, architecture and development on a hexagonal Java backend with multiple frontends (React/Vite), deployed on AWS infrastructure (EKS, Terraform, Docker). Led integration work with a major French payment service provider (payment flows, financial transactions), as well as with HRIS teams and external integrators. Ran bi-weekly coordination meetings with OPS teams and tracked both the technical and business roadmap. Initiated exploratory workstreams: Drools rules engine, chatbot with Tools / Spring AI, and early HRIS integration studies. Worked closely with the Product Manager, Product Owner, QA Lead and UX Lead."
+        stack = "Java 25, Spring Boot 3, Hexagonal Architecture, CQRS, React, Vite, AWS, Docker, Terraform, EKS, PostgreSQL, Datadog."
+        details = "Tech Lead for a team of 3 to 4 developers on the Mobility Pass platform, a B2B mobility management solution currently being rolled out to several large enterprise clients. Responsible for design, architecture and development on a hexagonal Java backend with multiple frontends (React/Vite), deployed on AWS infrastructure (EKS, Terraform, Docker). Led integration work with a major French payment service provider (payment flows, financial transactions), as well as with HRIS teams and external integrators. Ran bi-weekly coordination meetings with OPS teams and tracked both the technical and business roadmap. Initiated exploratory workstreams: Drools rules engine, chatbot with Tools / Spring AI, and early HRIS integration studies. Worked closely with the Product Manager, Product Owner, QA Lead and UX Lead."
 
         [[params.experience.list]]
         title = "Développeur chez Docker"
