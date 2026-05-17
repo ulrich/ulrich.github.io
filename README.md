@@ -4,8 +4,8 @@
 
 | Branche | Rôle |
 |---|---|
-| `src` | Sources Hugo — c'est ici qu'on travaille |
-| `master` | Site généré — déployé automatiquement par GitHub Actions |
+| `src` | Sources Hugo (branche de travail uniquement) |
+| `master` | Le site généré est déployé automatiquement par GitHub Actions |
 
 **Ne jamais modifier `master` directement.**
 
