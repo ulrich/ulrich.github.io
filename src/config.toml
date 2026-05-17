@@ -98,7 +98,7 @@ googleAnalytics = "UA-168698552-1"
         university = "Université Paris 8 Vincennes"
 
         [[params.education.list]]
-        degree = "DEUG MASS"
+        degree = "DEUG Mathématiques Appliquées et Sciences Sociales"
         university = "Université Paris 8 Vincennes"
 
         [[params.education.list]]
