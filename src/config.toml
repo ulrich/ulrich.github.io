@@ -16,7 +16,7 @@ googleAnalytics = "UA-168698552-1"
         enable = true
         name = "Ulrich VACHON"
         tagline = "Tech Lead / Senior Software Engineer"
-        avatar = "assets/images/avatar.png"
+        avatar = "avatar.png"
 
     [params.contact]
         enable = true
