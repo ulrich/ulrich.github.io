@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ulrich VACHON - CV</title>
-    <link>https://ulrich.github.io/</link>
+    <link>https://reservoircode.net/</link>
     <description>Recent content on Ulrich VACHON - CV</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr</language><atom:link href="https://ulrich.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr</language><atom:link href="https://reservoircode.net/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
