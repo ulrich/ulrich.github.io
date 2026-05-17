@@ -1,6 +1,6 @@
 baseURL = "https://reservoircode.net/"
-languageCode = "fr"
-defaultContentLanguage = "fr"
+languageCode = "en"
+defaultContentLanguage = "en"
 title = "Ulrich VACHON - CV"
 theme = "devresume"
 googleAnalytics = "UA-168698552-1"
