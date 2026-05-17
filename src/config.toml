@@ -41,7 +41,7 @@ googleAnalytics = "UA-168698552-1"
         enable = true
 
         [[params.skills.list]]
-        title = "Langages"
+        title = "Languages"
         [[params.skills.list.items]]
         details = "Java 25, TypeScript, Golang, C#, Python, Groovy, SQL, Shell, Lisp, Clojure, Delphi."
 
