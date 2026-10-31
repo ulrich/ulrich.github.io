@@ -43,42 +43,46 @@ googleAnalytics = "UA-168698552-1"
         [[params.skills.list]]
         title = "Languages"
         [[params.skills.list.items]]
-        details = "Java 25, TypeScript, Golang, C#, Python, Groovy, SQL, Shell, Lisp, Clojure, Delphi."
+        details = "Java 25, TypeScript, Golang, C#, Python, Groovy, SQL, GraphQL, HCL (Terraform), Shell. Earlier: Lisp, Clojure, Delphi."
 
         [[params.skills.list]]
         title = "Frameworks"
         [[params.skills.list.items]]
-        details = "Spring Boot 3, Spring AI, React, Vite, node, Angular, EmberJS, JAX-RS/Jersey, Grails, Tapestry, Rails, Play framework…"
+        details = "Spring Boot 4, Spring AI, Spring Security, jOOQ/JPA, React 19, Vite, MUI, TanStack Query, React Router, node, Angular, EmberJS, JAX-RS/Jersey. Earlier: Grails, Tapestry, Rails, Play…"
 
         [[params.skills.list]]
         title = "Architecture"
         [[params.skills.list.items]]
-        details = "Hexagonal Architecture, Microservices, CQRS, ADR, DDD, REST, MCP Tools."
+        details = "Hexagonal Architecture, CQRS, DDD, Microservices, Event-driven/Webhooks, REST, ADR, Design System, pnpm monorepo, MCP Tools, LLM tool-calling."
 
         [[params.skills.list]]
-        title = "DevOps/Infa"
+        title = "DevOps/Infra"
         [[params.skills.list.items]]
-        details = "Docker, Kubernetes, Terraform/Terragrunt, GitHub, GitLab, AWS, Azure, GCP, Jenkins, TeamCity, Travis CI."
+        details = "AWS (EKS, RDS, S3, SQS, SES), Terraform/Terragrunt, Docker, Kubernetes, Datadog, GitLab CI, GitHub Actions, Cloudflare, Azure, GCP. Earlier: Jenkins, TeamCity, Travis CI."
 
         [[params.skills.list]]
         title = "Data"
         [[params.skills.list.items]]
-        details = "PostgreSQL, MongoDB, ElasticSearch/SOLR, Kafka, InfluxDB, MySQL, SQLite,OpenStreetMaps."
+        details = "PostgreSQL, Liquibase, MongoDB, Kafka, ElasticSearch/SOLR, MySQL, OpenStreetMaps."
 
         [[params.skills.list]]
         title = "Security/IAM"
         [[params.skills.list.items]]
-        details = "Keycloak/SPI, JWT, OAuth2."
+        details = "Keycloak 26/SPI, OAuth2/OIDC, JWT."
 
         [[params.skills.list]]
         title = "Testing"
         [[params.skills.list.items]]
-        details = "JUnit, Mockito, AssertJ, Testcontainers, Mutation Testing/PIT."
+        details = "JUnit, Mockito, AssertJ, Testcontainers, ArchUnit, Vitest, Testing Library, Playwright, TDD, Mutation Testing/PIT."
 
+        [[params.skills.list]]
+        title = "AI-assisted engineering"
+        [[params.skills.list.items]]
+        details = "GitHub Copilot, Claude Code, agent instructions/skills, Spring AI, MCP."
         [[params.skills.list]]
         title = "Tools"
         [[params.skills.list.items]]
-        details = "Git, IntelliJ, VSCode, VIM, Sonar, JIRA, Nexus, Maven, Drools…"
+        details = "Git, IntelliJ, VSCode, VIM, SonarCloud, JIRA, Gradle, Maven, Vault, Storybook, Drools…"
 
         [[params.skills.list]]
         title = "Methods"
@@ -139,7 +143,7 @@ googleAnalytics = "UA-168698552-1"
 
     [params.summary]
         enable = true
-        text = "Experienced developer since 2000, team player and technical leader with a strong interest in technologies. Passionate about community sharing through technical blogs and events like DEVOXX."
+        text = "Experienced developer since 2000, team player and technical leader with a strong interest in technologies, currently focused on fintech/payment platforms, cloud-native architecture and AI-assisted engineering. Passionate about community sharing through technical blogs and events like DEVOXX."
 
     [params.experience]
         enable = true
@@ -148,13 +152,13 @@ googleAnalytics = "UA-168698552-1"
         title = "Lead Developer / Senior Software Engineer"
         dates = "02/2025 – Present"
         company = "Rout’in · Reservoir Code · Hybrid"
-        stack = "Java 25, Spring Boot 3, Hexagonal Architecture, CQRS, React, Vite, AWS, Docker, Terraform, EKS, PostgreSQL, Datadog."
+        stack = "Java 25, Spring Boot 4, Hexagonal Architecture, CQRS, React 19, TypeScript, Vite, Keycloak, AWS (EKS), Terraform, PostgreSQL, Datadog."
         details = """
-Tech Lead for a team of 3 to 4 developers on the **Mobility Pass** platform, a B2B mobility management solution currently being rolled out to several large enterprise clients. Responsible for design, architecture and development on a hexagonal Java backend with multiple frontends (React/Vite), deployed on AWS infrastructure (EKS, Terraform, Docker).
+Tech Lead for a team of 3 to 4 developers on the **Mobility Pass** platform, a B2B mobility management solution currently being rolled out to several large enterprise clients. Responsible for design, architecture and development on a hexagonal/CQRS Java backend with a React 19 / TypeScript frontend and backoffice (pnpm monorepo, shared design system), secured by **Keycloak** with custom SPIs and deployed on AWS (EKS, Terraform, Docker).
         
-Led integration work with a **major French payment service provider** (payment flows, financial transactions), as well as with HRIS teams and external integrators. Ran bi-weekly coordination meetings with OPS teams and tracked both the technical and business roadmap.
+Led integration work with a **major French payment service provider** (banking-as-a-service, payment flows, financial transactions, webhooks), as well as with HRIS teams and external integrators. Ran bi-weekly coordination meetings with OPS teams and tracked both the technical and business roadmap.
         
-Initiated exploratory workstreams: **Drools** rules engine, chatbot with **Tools / Spring AI**, and early HRIS integration studies. Worked closely with the Product Manager, Product Owner, QA Lead and UX Lead.
+Initiated exploratory workstreams: **Drools** rules engine, chatbot with **Tools / Spring AI**, and early HRIS integration studies. Introduced AI-assisted development practices (shared agent instructions and skills). Worked closely with the Product Manager, Product Owner, QA Lead and UX Lead.
 """
 
         [[params.experience.list]]
@@ -318,14 +322,14 @@ Early career positions involving Java development on embedded clients (PSION/Pal
         enable = true
 
         [[params.social.list]]
-        icon = "fab fa-github-square"
-        url = "//github.com/ulrich"
-        title = "ulrich"
-        [[params.social.list]]
         icon = "fab fa-linkedin"
         url = "//linkedin.com/in/vachon"
-        title = "Ulrich VACHON"
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/ulrich"
+        [[params.social.list]]
+        icon = "fab fa-dev"
+        url = "//dev.to/ulrich"
         [[params.social.list]]
         icon = "fab fa-twitter-square"
         url = "//twitter.com/ulrich"
-        title = "@ulrich"
