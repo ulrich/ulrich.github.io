@@ -244,7 +244,7 @@ dates = "03/2011 – 11/2011"
 company = "Finance Active · Permanent Position · Issy-les-Moulineaux"
 stack = "Java, Tapestry, Hibernate, MySQL"
 details = """
-Scrum Master and developer on the full redesign of **FXChange**, a foreign exchange risk management application. Led a small team of 2 to 3 developers using a **DDD** approach and functional programming principles.
+Scrum Master and developer on the full redesign of **Fx'ent**, a foreign exchange risk management application. Led a small team of 2 to 3 developers using a **DDD** approach and functional programming principles.
 """
 
 [[params.experience.list]]
