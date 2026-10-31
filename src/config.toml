@@ -3,9 +3,9 @@ languageCode = "en"
 defaultContentLanguage = "en"
 title = "Ulrich VACHON - CV"
 theme = "devresume"
-googleAnalytics = "UA-168698552-1"
 
 [params]
+    googleAnalyticsID = "G-R3CJD6NTJ6"
     author = "Ulrich VACHON"
     description = "Ulrich VACHON 2026"
 
@@ -154,7 +154,7 @@ googleAnalytics = "UA-168698552-1"
         company = "Rout’in · Reservoir Code · Hybrid"
         stack = "Java 25, Spring Boot 4, Hexagonal Architecture, CQRS, React 19, TypeScript, Vite, Keycloak, AWS (EKS), Terraform, PostgreSQL, Datadog."
         details = """
-Tech Lead for a team of 3 to 4 developers on the **Mobility Pass** platform, a B2B mobility management solution currently being rolled out to several large enterprise clients. Responsible for design, architecture and development on a hexagonal/CQRS Java backend with a React 19 / TypeScript frontend and backoffice (pnpm monorepo, shared design system), secured by **Keycloak** with custom SPIs and deployed on AWS (EKS, Terraform, Docker).
+Tech Lead on the **Mobility Pass** platform, a B2B mobility management solution currently being rolled out to several large enterprise clients. Responsible for design, architecture and development on a hexagonal/CQRS Java backend with a React 19 / TypeScript frontend and backoffice (pnpm monorepo, shared design system), secured by **Keycloak** with custom SPIs and deployed on AWS (EKS, Terraform, Docker).
         
 Led integration work with a **major French payment service provider** (banking-as-a-service, payment flows, financial transactions, webhooks), as well as with HRIS teams and external integrators. Ran bi-weekly coordination meetings with OPS teams and tracked both the technical and business roadmap.
         
