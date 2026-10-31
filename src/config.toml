@@ -302,13 +302,13 @@ Early career positions involving Java development on embedded clients (PSION/Pal
         [[params.information.list]]
         title = "Conférences"
         [[params.information.list.items]]
-        details = "Touraine.tech 2020​ - Dockerfile, les bonnes pratiques"
+        details = "Touraine.tech - Dockerfile, les bonnes pratiques"
         [[params.information.list.items]]
-        details = "DEVOXX 2018​ - ​Refaire Google Maps en moins de 3 heures​"
+        details = "DEVOXX - Refaire Google Maps en moins de 3 heures"
         [[params.information.list.items]]
-        details = "DEVOXX 2012​ - ​Pratiquer DDD en un éclair​​"
+        details = "DEVOXX - Pratiquer DDD en un éclair"
         [[params.information.list.items]]
-        details = "DEVOXX 2012​ - ​C’est si simple GIT !​"
+        details = "DEVOXX - C’est si simple GIT !"
 
         [[params.information.list]]
         title = "Events"
